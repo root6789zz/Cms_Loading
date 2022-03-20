@@ -52,7 +52,7 @@
         <section class="content-header">
           <h1>
             Rol
-            <strong>Duyệt thẻ</strong>
+            <strong>Danh sách thẻ cào</strong>
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -82,58 +82,46 @@
             <div class="col-md-6">
 <div class="box box-info">
 <div class="box-header with-border">
-<h3 class="box-title">Tra cứu</h3>
+<h3 class="box-title">Danh sách thẻ cào</h3>
 </div>
 
 
 <form class="form-horizontal">
 <div class="box-body">
 <div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên đăng nhập</label>
+<label for="inputEmail3" class="col-sm-4 control-label">Tên thẻ cào</label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Tên đăng nhập">
+<input type="text" class="form-control" id="inputMaVeSo" placeholder="Tên thẻ cào">
 </div>
 </div>
 <div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">NickName</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Mã thẻ</label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="NickName">
+<input type="text" class="form-control" id="inputID" placeholder="Mã thẻ">
 </div>
 </div>
 <div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Mã thẻ</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Mã thẻ">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Giá trị thẻ</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Giá trị thẻ">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Ngày mua</label>
-<div class="col-sm-8">
-<input type="text" class="form-control pull-right" id="reservation" placeholder="click để nhập thời gian">
-</div>
-</div>
-
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Nhà mạng</label>
 <div class="col-sm-8">
 <select class="form-control">
-<option>Trạng thái</option>
-<option>Thành công</option>
-<option>Thất bại</option>
-<option>Chờ duyệt</option>
-<option>Huỷ đổi thẻ</option>
-
+<option>--Chọn nhà mạng--</option>
+<option>Viettel</option>
+<option>Vinaphone</option>
+<option>Mobiphone</option>
+<option>Gate</option>
+<option>Zing</option>
+<option>Vcoin</option>
 </select></div>
 </div>
-
-
-
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái nạp thẻ</label>
+<div class="col-sm-8">
+<select class="form-control">
+<option>--Chọn trạng thái--</option>
+<option>Hoạt động</option>
+<option>Tạm dừng</option>
+</select></div>
+</div>
 </div>
 
 <div class="box-footer">
@@ -143,7 +131,31 @@
 </form>
 </div>
             </div>
+            <div class="col-md-6">
+<div class="box box-info">
+<div class="box-header with-border">
+<h3 class="box-title">Thêm mới thẻ cào</h3>
+</div>
 
+
+<form class="form-horizontal">
+<div class="box-body">
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-4 control-label"></label>
+<div class="col-sm-8">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Thêm mới thẻ cào
+</button>
+</div>
+</div>
+</div>
+
+<div class="box-footer">
+</div>
+
+</form>
+</div>
+            </div>
           </div>
           <div class="row">
 <div class="col-md-12">
@@ -152,38 +164,61 @@
 
             <div class="box-header">
 
-              <h3 class="box-title">Tra cứu </h3>
+              <h3 class="box-title">Danh sách đại lý</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example2" class="table table-bordered table-hover">
                 <thead>
                 <tr>
-                  <th>Tên đăng nhập</th>
-                  <th>Nickname</th>
-                  <th>Số serial</th>
-                  <th>NickName nhận</th>
+                  <th>Cổng</th>
+                  <th>Tên thẻ cào</th>
+                  <th>Mã thẻ cào</th>
                   <th>Giá trị thẻ</th>
-                  <th>Ngày mua</th>
-                  <th>Trạng thái</th>
-                  <th>Action</th>
-
-
-                </tr>
-                <tr>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-
-
+                  <th>Tên nhà mạng</th>
+                  <th>Đối tác cho mệnh giá đặc biệt</th>
+                  <th>Trạng thái nạp thẻ</th>
+                  <th>Trạng thái đổi thẻ</th>
+                  <th>hành động</th>
                 </tr>
                 </thead>
                 <tbody>
+                <tr>
+                  <td>Cổng B1 </td>
+                  <td>Thẻ cào 10K 
+                  </td>
+                  <td>VTT10</td>
+                  <td>10.000  </td>
+                  <td>Viettel</td>
+                  <td>- </td>
+                  <td>Hoạt động  </td>
+                  <td>Tạm dừng   </td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Cổng B1 </td>
+                  <td>Thẻ cào 10K 
+                  </td>
+                  <td>VTT10</td>
+                  <td>10.000  </td>
+                  <td>Viettel</td>
+                  <td>- </td>
+                  <td>Hoạt động  </td>
+                  <td>Tạm dừng   </td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Cổng B1 </td>
+                  <td>Thẻ cào 10K 
+                  </td>
+                  <td>VTT10</td>
+                  <td>10.000  </td>
+                  <td>Viettel</td>
+                  <td>- </td>
+                  <td>Hoạt động  </td>
+                  <td>Tạm dừng   </td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
                 </tfoot>
               </table>
             </div>
@@ -191,144 +226,196 @@
           </div>
 
 </div>
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Chỉnh sửa đại lý</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Thêm Mới</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-<form class="form-horizontal">
-<div class="box-body">
 <div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên đại lý</label>
-<div class="col-sm-8">
-vipsilip</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên giao dịch</label>
-<div class="col-sm-8">
-abcxyz</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Số điện thoại</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số điện thoại hiển thị</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">facebook</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="link facebook">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Telegram</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="link telegram">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Zalo</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Link zalo">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Đại lý tuyến trên(nếu có),</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Chọn cổng</label>
 <div class="col-sm-8">
 <select class="form-control">
-<option>Đại lý tuyến trên</option>
-
-
+<option>Cổng B1</option>
+<option>Cổng B2</option>
+<option>Cổng B3</option>
 </select></div>
 </div>
-
+<br/>
+<br/>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Khu vực</label>
+<label for="inputEmail3" class="col-sm-4 control-label">Tên thẻ cào * </label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="tên khu vực">
+<input type="text" class="form-control" id="inputMaVeSo" placeholder="Tên thẻ cào * ">
 </div>
 </div>
+<br/>
+<br/>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Vị trí hiển thị</label>
+<label for="inputEmail3" class="col-sm-4 control-label">Giá trị thẻ *   </label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
+<input type="text" class="form-control" id="inputMaVeSo" placeholder=" VD: 500000  ">
 </div>
 </div>
+<br/>
+<br/>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái nạp thẻ</label>
 <div class="col-sm-8">
 <select class="form-control">
-<option>Tất cả</option>
-<option>hoạt động</option>
-<option>Bị khoá</option>
-<option>ngừng hoạt động</option>
-
+<option>Hoạt động</option>
+<option>Tạm dừng</option>
 </select></div>
 </div>
-
+<br/>
+<br/>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Cấp đại lý</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái đổi thẻ</label>
 <div class="col-sm-8">
 <select class="form-control">
-<option>Tất cả</option>
-<option>Đại lý cấp 1</option>
-<option>Đại lý cấp 2</option>
-
+<option>Hoạt động</option>
+<option>Tạm dừng</option>
 </select></div>
 </div>
+<br/>
+<br/>
+
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Nhà mạng</label>
 <div class="col-sm-8">
 <select class="form-control">
-<option>Tất cả</option>
-<option>hoạt động</option>
-<option>Bị khoá</option>
-<option>ngừng hoạt động</option>
-
+<option>--Chọn nhà mạng--</option>
+<option>Viettel</option>
+<option>Vinaphone</option>
+<option>Mobiphone</option>
+<option>Gate</option>
+<option>Zing</option>
+<option>Vcoin</option>
 </select></div>
 </div>
+<br/>
+<br/>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Loại ví</label>
+<label for="inputPassword3" class="col-sm-4 control-label">PartnerId</label>
 <div class="col-sm-8">
 <select class="form-control">
-<option>Ví chính</option>
-<option>Ví giftcode</option>
+<option>--Chọn đối tác với thẻ đặc biệt--</option>
+<option>P1-Happy</option>
+<option>P2-MobileSMs</option>
+<option>P3-XBoom</option>
+<option>P4-Smile</option>
+<option>P5_Thenhanh</option>
 </select></div>
 </div>
+<br/>
+<br/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-primary">Lưu</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Thêm Mới</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số tiền trong ví</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Chọn cổng</label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="5000000">
+<select class="form-control">
+<option>Cổng B1</option>
+<option>Cổng B2</option>
+<option>Cổng B3</option>
+</select></div>
 </div>
-</div>
+<br/>
+<br/>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số tiền muốn thu hồi</label>
+<label for="inputEmail3" class="col-sm-4 control-label">Tên thẻ cào * </label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số tiền muốn thu hồi">
+<input type="text" class="form-control" id="inputMaVeSo" placeholder="Tên thẻ cào * ">
 </div>
 </div>
+<br/>
+<br/>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Ghi chú</label>
+<label for="inputEmail3" class="col-sm-4 control-label">Mã thẻ cào * </label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Ghi chú">
+<input type="text" class="form-control" id="inputMaVeSo" placeholder="Mã thẻ cào">
 </div>
 </div>
+<br/>
+<br/>
+<div class="form-group">
+<label for="inputEmail3" class="col-sm-4 control-label">Giá trị thẻ *   </label>
+<div class="col-sm-8">
+<input type="text" class="form-control" id="inputMaVeSo" placeholder=" VD: 500000  ">
 </div>
+</div>
+<br/>
+<br/>
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái nạp thẻ</label>
+<div class="col-sm-8">
+<select class="form-control">
+<option>Hoạt động</option>
+<option>Tạm dừng</option>
+</select></div>
+</div>
+<br/>
+<br/>
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái đổi thẻ</label>
+<div class="col-sm-8">
+<select class="form-control">
+<option>Hoạt động</option>
+<option>Tạm dừng</option>
+</select></div>
+</div>
+<br/>
+<br/>
 
-
-
-</form>
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-4 control-label">Nhà mạng</label>
+<div class="col-sm-8">
+<select class="form-control">
+<option>--Chọn nhà mạng--</option>
+<option>Viettel</option>
+<option>Vinaphone</option>
+<option>Mobiphone</option>
+<option>Gate</option>
+<option>Zing</option>
+<option>Vcoin</option>
+</select></div>
+</div>
+<br/>
+<br/>
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-4 control-label">PartnerId</label>
+<div class="col-sm-8">
+<select class="form-control">
+<option>--Chọn đối tác với thẻ đặc biệt--</option>
+<option>P1-Happy</option>
+<option>P2-MobileSMs</option>
+<option>P3-XBoom</option>
+<option>P4-Smile</option>
+<option>P5_Thenhanh</option>
+</select></div>
+</div>
+<br/>
+<br/>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>

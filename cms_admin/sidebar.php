@@ -233,76 +233,51 @@
               <ul class="treeview-menu">
 
                 <li>
-                  <a href="#"><i class="fa fa-circle-o"></i> Cấu hình chung</a>
+                  <a href="cau-hinh-chung.php"><i class="fa fa-circle-o"></i> Cấu hình chung ( phí )</a>
                   <a href="#"><i class="fa fa-circle-o"></i> Game<i class="fa fa-angle-left pull-right"></i></a>
                   <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Thông tin game</a></li>
+                    <li><a href="thong-tin-game.php"><i class="fa fa-circle-o"></i> Thông tin game</a></li>
+                    <li><a href="hang-nguoi-choi.php"><i class="fa fa-circle-o"></i> Hạng người chơi</a></li>
+                    <li><a href="su-kien.php"><i class="fa fa-circle-o"></i> sự kiện</a></li>
+                    <li><a href="giftcode-check.php"><i class="fa fa-circle-o"></i>Giftcode check</a></li>
                     <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> Hạng người chơi <i class="fa fa-angle-left pull-right"></i></a>
+                      <a href="#"><i class="fa fa-circle-o"></i> Vòng quay <i class="fa fa-angle-left pull-right"></i></a>
                       <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Sự kiện</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Check giftcode</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Danh mục thẻ</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Mua thẻ 24h</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Duyệt thẻ</a></li>
+                        <li><a href="so-luot-quay.php"><i class="fa fa-circle-o"></i> Số lượt quay</a></li>
                       </ul>
                     </li>
-
+                    <li><a href="notify.php"><i class="fa fa-circle-o"></i>Notify</a></li>
                   </ul>
                 </li>
                     <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> USDT <i class="fa fa-angle-left pull-right"></i></a>
+                      <a href="#"><i class="fa fa-circle-o"></i> Thẻ cào <i class="fa fa-angle-left pull-right"></i></a>
                       <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Lịch sử nạp</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Lịch sử rút</a></li>
+                        <li><a href="nha-mang.php"><i class="fa fa-circle-o"></i>Nhà mạng</a></li>
+                        <li><a href="the-cao.php"><i class="fa fa-circle-o"></i>Thẻ cào</a></li>
+                        <li><a href="doi-tac.php"><i class="fa fa-circle-o"></i>Đối tác</a></li>
                       </ul>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> MOMO  <i class="fa fa-angle-left pull-right"></i></a>
+                      <a href="#"><i class="fa fa-circle-o"></i> USDT  <i class="fa fa-angle-left pull-right"></i></a>
                       <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Lịch sử MOMO</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Đối tác MOMO</a></li>
+                        <li><a href="cau-hinh-usdt.php"><i class="fa fa-circle-o"></i> Cấu hình USDT</a></li>
                       </ul>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> SMS  <i class="fa fa-angle-left pull-right"></i></a>
+                      <a href="#"><i class="fa fa-circle-o"></i> Ngân hàng  <i class="fa fa-angle-left pull-right"></i></a>
                       <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Lịch sử Nạp</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Đối tác </a></li>
+                        <li><a href="cau-hinh-ngan-hang.php"><i class="fa fa-circle-o"></i> Ngân hàng</a></li>
+                        <li><a href="thong-tin-ngan-hang.php"><i class="fa fa-circle-o"></i> Thông tin ngân hàng</a></li>
                       </ul>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> XoSo  <i class="fa fa-angle-left pull-right"></i></a>
+                      <a href="#"><i class="fa fa-circle-o"></i> Cấu hình bot  <i class="fa fa-angle-left pull-right"></i></a>
                       <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Cập Nhật kết quả</a></li>
+                        <li><a href="bot-thuong-truc.php"><i class="fa fa-circle-o"></i> Bot thường trực</a></li>
+                        <li><a href="thoi-gian-bot.php"><i class="fa fa-circle-o"></i> Thời gian </a></li>
+                        <li><a href="bom-tien-bot.php"><i class="fa fa-circle-o"></i> Thêm tiền </a></li>
                       </ul>
                     </li>
-                <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Cảnh báo đầu vào</a></li>
-                    <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> JackPot  <i class="fa fa-angle-left pull-right"></i></a>
-                      <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Lịch sử trúng hũ</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Thống kê trúng hũ</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> Vòng Quay May Mắn  <i class="fa fa-angle-left pull-right"></i></a>
-                      <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Người chơi</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Giải bit</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Giải FreeSpin</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> Phát Lộc  <i class="fa fa-angle-left pull-right"></i></a>
-                      <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> BigWin Phát Lộc</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Test Phát Lộc</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Tài khoản thường phát lộc</a></li>
-                      </ul>
-                    </li>
-                <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i>Bảng xếp hạng thắng thua</a>
-                </li>
               </ul>
               </a>
             </li>

@@ -52,7 +52,7 @@
         <section class="content-header">
           <h1>
             Rol
-            <strong>Duyệt thẻ</strong>
+            <small>  Kiểm tra giftcode</small>
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -89,47 +89,10 @@
 <form class="form-horizontal">
 <div class="box-body">
 <div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên đăng nhập</label>
+<label for="inputEmail3" class="col-sm-4 control-label">GiftCode</label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Tên đăng nhập">
+<input type="text" class="form-control" id="inputMaVeSo" placeholder="GiftCode">
 </div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">NickName</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="NickName">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Mã thẻ</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Mã thẻ">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Giá trị thẻ</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Giá trị thẻ">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Ngày mua</label>
-<div class="col-sm-8">
-<input type="text" class="form-control pull-right" id="reservation" placeholder="click để nhập thời gian">
-</div>
-</div>
-
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Trạng thái</option>
-<option>Thành công</option>
-<option>Thất bại</option>
-<option>Chờ duyệt</option>
-<option>Huỷ đổi thẻ</option>
-
-</select></div>
 </div>
 
 
@@ -152,22 +115,23 @@
 
             <div class="box-header">
 
-              <h3 class="box-title">Tra cứu </h3>
+              <h3 class="box-title">Thông tin</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example2" class="table table-bordered table-hover">
                 <thead>
                 <tr>
-                  <th>Tên đăng nhập</th>
-                  <th>Nickname</th>
-                  <th>Số serial</th>
-                  <th>NickName nhận</th>
-                  <th>Giá trị thẻ</th>
-                  <th>Ngày mua</th>
+                  <th>Chiến dịch</th>
+                  <th>Giftcode</th>
+                  <th>Mệnh giá</th>
+                  <th>Nickname sử dụng</th>
+                  <th>Thời gian sử dụng</th>
                   <th>Trạng thái</th>
-                  <th>Action</th>
-
+                  <th>Ngày hết hạn</th>
+                  <th>Loại giftcode</th>
+                  <th>Người tạo</th>
+                  <th>Nhóm người tạo</th>
 
                 </tr>
                 <tr>
@@ -179,7 +143,8 @@
                   <th>-</th>
                   <th>-</th>
                   <th>-</th>
-
+                  <th>-</th>
+                  <th>-</th>
 
                 </tr>
                 </thead>

@@ -52,8 +52,8 @@
         <section class="content-header">
           <h1>
             Rol
-            <strong>Duyệt thẻ</strong>
-          </h1>
+              <strong>Số lượt quay</strong>
+                </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="#">Forms</a></li>
@@ -84,63 +84,7 @@
 <div class="box-header with-border">
 <h3 class="box-title">Tra cứu</h3>
 </div>
-
-
-<form class="form-horizontal">
-<div class="box-body">
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên đăng nhập</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Tên đăng nhập">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">NickName</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="NickName">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Mã thẻ</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Mã thẻ">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Giá trị thẻ</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Giá trị thẻ">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Ngày mua</label>
-<div class="col-sm-8">
-<input type="text" class="form-control pull-right" id="reservation" placeholder="click để nhập thời gian">
-</div>
-</div>
-
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Trạng thái</option>
-<option>Thành công</option>
-<option>Thất bại</option>
-<option>Chờ duyệt</option>
-<option>Huỷ đổi thẻ</option>
-
-</select></div>
-</div>
-
-
-
-</div>
-
-<div class="box-footer">
-<button type="submit" class="btn btn-info pull-right">tìm kiếm</button>
-</div>
-
-</form>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Thêm mới</button>
 </div>
             </div>
 
@@ -152,38 +96,30 @@
 
             <div class="box-header">
 
-              <h3 class="box-title">Tra cứu </h3>
+              <h3 class="box-title">Thông tin</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example2" class="table table-bordered table-hover">
                 <thead>
                 <tr>
-                  <th>Tên đăng nhập</th>
-                  <th>Nickname</th>
-                  <th>Số serial</th>
-                  <th>NickName nhận</th>
-                  <th>Giá trị thẻ</th>
-                  <th>Ngày mua</th>
-                  <th>Trạng thái</th>
-                  <th>Action</th>
-
-
+                  <th>Ngày bắt đầu</th>
+                  <th>Ngày kết thúc</th>
+                  <th>Số lượt quay</th>
+                  <th>Ngày tạo</th>
+                  <th>Hành động</th>
                 </tr>
-                <tr>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
 
-
-                </tr>
                 </thead>
                 <tbody>
+                <tr>
+                  <td>15/02/2022  </td>
+                  <td>16/02/2022</td>
+                  <td>10</td>
+                  <td>15/02/2022  </td>
+                  <td><a href="#">xoá</a></td>
+                </tr>
+                </tbody>
                 </tfoot>
               </table>
             </div>
@@ -195,7 +131,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Chỉnh sửa đại lý</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Chỉnh sửa</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -203,131 +139,20 @@
       <div class="modal-body">
 <form class="form-horizontal">
 <div class="box-body">
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên đại lý</label>
-<div class="col-sm-8">
-vipsilip</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên giao dịch</label>
-<div class="col-sm-8">
-abcxyz</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Số điện thoại</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số điện thoại hiển thị</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">facebook</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="link facebook">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Telegram</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="link telegram">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Zalo</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Link zalo">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Đại lý tuyến trên(nếu có),</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Đại lý tuyến trên</option>
 
 
-</select></div>
-</div>
-
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Khu vực</label>
+<label for="inputEmail3" class="col-sm-4 control-label">ngày bắt đầu - kết thúc</label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="tên khu vực">
+<input type="text" class="form-control pull-right" id="reservation" placeholder="click để chọn thời gian">
 </div>
 </div>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Vị trí hiển thị</label>
+<label for="inputEmail3" class="col-sm-4 control-label">Số lượt quay </label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
+<input type="text" class="form-control" id="inputID" placeholder="Số lượt quay">
 </div>
 </div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Tất cả</option>
-<option>hoạt động</option>
-<option>Bị khoá</option>
-<option>ngừng hoạt động</option>
-
-</select></div>
-</div>
-
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Cấp đại lý</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Tất cả</option>
-<option>Đại lý cấp 1</option>
-<option>Đại lý cấp 2</option>
-
-</select></div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Tất cả</option>
-<option>hoạt động</option>
-<option>Bị khoá</option>
-<option>ngừng hoạt động</option>
-
-</select></div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Loại ví</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Ví chính</option>
-<option>Ví giftcode</option>
-</select></div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số tiền trong ví</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="5000000">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số tiền muốn thu hồi</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số tiền muốn thu hồi">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Ghi chú</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Ghi chú">
-</div>
-</div>
-</div>
-
-
-
 </form>
       </div>
       <div class="modal-footer">

@@ -52,7 +52,7 @@
         <section class="content-header">
           <h1>
             Rol
-            <strong>Duyệt thẻ</strong>
+           <strong>Cấu hình mức phí</strong>
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -82,57 +82,29 @@
             <div class="col-md-6">
 <div class="box box-info">
 <div class="box-header with-border">
-<h3 class="box-title">Tra cứu</h3>
+<h3 class="box-title">Tìm kiếm</h3>
 </div>
 
 
 <form class="form-horizontal">
 <div class="box-body">
 <div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên đăng nhập</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Tên đăng nhập">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">NickName</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="NickName">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Mã thẻ</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Mã thẻ">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Giá trị thẻ</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputMaVeSo" placeholder="Giá trị thẻ">
-</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Ngày mua</label>
-<div class="col-sm-8">
-<input type="text" class="form-control pull-right" id="reservation" placeholder="click để nhập thời gian">
-</div>
-</div>
-
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Loại</label>
 <div class="col-sm-8">
 <select class="form-control">
-<option>Trạng thái</option>
-<option>Thành công</option>
-<option>Thất bại</option>
-<option>Chờ duyệt</option>
-<option>Huỷ đổi thẻ</option>
+<option>Tất cả</option>
+<option>Phí giao dịch</option>
+<option>Loại giao dịch</option>
+<option>Hạn mức giao dịch các loại</option>
 
 </select></div>
 </div>
-
-
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-4 control-label">giá trị</label>
+<div class="col-sm-8">
+<input type="text" class="form-control" id="inputID" placeholder="giá trị">
+</div>
+</div>
 
 </div>
 
@@ -143,7 +115,9 @@
 </form>
 </div>
             </div>
+            <div class="col-md-6">
 
+            </div>
           </div>
           <div class="row">
 <div class="col-md-12">
@@ -152,38 +126,254 @@
 
             <div class="box-header">
 
-              <h3 class="box-title">Tra cứu </h3>
+              <h3 class="box-title">Danh sách đại lý</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example2" class="table table-bordered table-hover">
                 <thead>
                 <tr>
-                  <th>Tên đăng nhập</th>
-                  <th>Nickname</th>
-                  <th>Số serial</th>
-                  <th>NickName nhận</th>
-                  <th>Giá trị thẻ</th>
-                  <th>Ngày mua</th>
-                  <th>Trạng thái</th>
-                  <th>Action</th>
-
-
-                </tr>
-                <tr>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-                  <th>-</th>
-
-
+                  <th>Mô tả</th>
+                  <th>Giá trị</th>
+                  <th>Hành động</th>
                 </tr>
                 </thead>
                 <tbody>
+                <tr>
+                  <td>GD dai ly cho dai ly  </td>
+                  <td>2</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>GD dai ly cho user   </td>
+                  <td>3</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>GD Admin cho dai ly  </td>
+                  <td>6</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>GD Admin cho USER  </td>
+                  <td>7</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>GD dai ly cho ADMIN   </td>
+                  <td>8</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>GD User cho Dai ly    </td>
+                  <td>9</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>  
+                <tr>
+                  <td>GD User cho Admin    </td>
+                  <td>10</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>User chuyển tiền cho User    </td>
+                  <td>11</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Giao dịch nội bộ User    </td>
+                  <td>12</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>   
+                <tr>
+                  <td>Admin chuyên tiền cho Admin    </td>
+                  <td>13</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>   
+                <tr>
+                  <td>Phi GD Giua C2 va USER Gui C1    </td>
+                  <td>17</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>  
+                <tr>
+                  <td>Hạn mức đổi thẻ trong ngày      </td>
+                  <td>100000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Số Bit Min cho phép chuyển giữa Bank & user       </td>
+                  <td>50000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>  
+                <tr>
+                  <td>Số Bit Max cho phép chuyển giữa Bank & user       </td>
+                  <td>20000000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>   
+                <tr>
+                  <td>Min User Rut tien qua USDT       </td>
+                  <td>50000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>   
+                <tr>
+                  <td>Max User Rut tien qua USDT        </td>
+                  <td>50000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>  
+                <tr>
+                  <td>Max User Rut tien qua USDT          </td>
+                  <td>20000000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>     
+                <tr>
+                  <td>Hạn mức mua sao trong ngày (chợ)           </td>
+                  <td>2000000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>   
+                <tr>
+                  <td>Số Bit Min được phép chuyển giữa ADMIN với Đại lý          </td>
+                  <td>100</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>     
+                <tr>
+                  <td>Số Bit Max cho phép chuyển giữa ADMIN với Đại lý           </td>
+                  <td>10000000000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>  
+                <tr>
+                  <td>Số Bit Min cho phép chuyển giữa Đại lý với Đại lý           </td>
+                  <td>100</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Số Bit Max cho phép chuyển giữa Đại lý với Đại lý            </td>
+                  <td>10000000000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Số Bit Min cho phép chuyển giữa Đại lý cho User Market              </td>
+                  <td>100</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Số Bit Max cho phép chuyển giữa Đại lý cho User Market                </td>
+                  <td>10000000000</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển tiền giữa Admin với Đại lý                </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển tiền giữa Đại lý và User                </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển Bit sang Game                 </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển tiền từ Đại lý cấp 1 cho cấp Đại lý cấp dưới                 </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí cấp 2 chuyển cấp (cùng cấp)                </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Phí chuyển tiền từ Đại lý cấp 1 cho User                 </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Phí chuyển tiền từ Đại lý cấp 2 cho User                   </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Phí chuyển tiền từ Đại lý cấp 1 cho Admin                   </td>
+                  <td>0.01</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Phí chuyển tiền từ Đại lý cấp 2 cho Admin                   </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr> 
+                <tr>
+                  <td>Phí chuyển tiền từ Admin với Đại lý cấp 2                  </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển tiền giữa Admin với USER                  </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí giao dịch trên toàn hệ thống                   </td>
+                  <td>0.02</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Đại lý cấp 1 chuyển tiền cùng cấp                    </td>
+                  <td>0.02</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển tổng đại lý cho cấp 1                   </td>
+                  <td>0.02</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển User cho đại lý cấp 1                   </td>
+                  <td>0.00</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển User cho đại lý cấp 2                    </td>
+                  <td>0.01</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí chuyển User cho admin                     </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí Admin chuyển cho tổng đại lý                     </td>
+                  <td>0.0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí đại lý cấp 1 chuyển tong dai ly                     </td>
+                  <td>0.0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí đại lý cấp 2 chuyển cấp trên                     </td>
+                  <td>0.0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                <tr>
+                  <td>Phí đại lý cấp 2 chuyển cấp trên                     </td>
+                  <td>0.01</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                 <tr>
+                  <td>Phí chuyển từ tổng đại lý và user                      </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>
+                 <tr>
+                  <td>Phí otp                      </td>
+                  <td>0</td>
+                  <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sửa</button></td>
+                </tr>              
                 </tfoot>
               </table>
             </div>
@@ -195,7 +385,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Chỉnh sửa đại lý</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Chỉnh sửa</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -203,131 +393,20 @@
       <div class="modal-body">
 <form class="form-horizontal">
 <div class="box-body">
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên đại lý</label>
-<div class="col-sm-8">
-vipsilip</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Tên giao dịch</label>
-<div class="col-sm-8">
-abcxyz</div>
-</div>
-<div class="form-group">
-<label for="inputEmail3" class="col-sm-4 control-label">Số điện thoại</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số điện thoại hiển thị</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">facebook</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="link facebook">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Telegram</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="link telegram">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Zalo</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Link zalo">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Đại lý tuyến trên(nếu có),</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Đại lý tuyến trên</option>
 
 
-</select></div>
-</div>
-
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Khu vực</label>
+<label for="inputEmail3" class="col-sm-4 control-label">Mô tả</label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="tên khu vực">
+<input type="text" class="form-control" id="inputID" placeholder="Mô tả">
 </div>
 </div>
 <div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Vị trí hiển thị</label>
+<label for="inputPassword3" class="col-sm-4 control-label">Giá trị</label>
 <div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số điện thoại">
+<input type="text" class="form-control" id="inputID" placeholder="giá trị">
 </div>
 </div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Tất cả</option>
-<option>hoạt động</option>
-<option>Bị khoá</option>
-<option>ngừng hoạt động</option>
-
-</select></div>
-</div>
-
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Cấp đại lý</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Tất cả</option>
-<option>Đại lý cấp 1</option>
-<option>Đại lý cấp 2</option>
-
-</select></div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Trạng thái</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Tất cả</option>
-<option>hoạt động</option>
-<option>Bị khoá</option>
-<option>ngừng hoạt động</option>
-
-</select></div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Loại ví</label>
-<div class="col-sm-8">
-<select class="form-control">
-<option>Ví chính</option>
-<option>Ví giftcode</option>
-</select></div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số tiền trong ví</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="5000000">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Số tiền muốn thu hồi</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Số tiền muốn thu hồi">
-</div>
-</div>
-<div class="form-group">
-<label for="inputPassword3" class="col-sm-4 control-label">Ghi chú</label>
-<div class="col-sm-8">
-<input type="text" class="form-control" id="inputID" placeholder="Ghi chú">
-</div>
-</div>
-</div>
-
-
-
 </form>
       </div>
       <div class="modal-footer">
