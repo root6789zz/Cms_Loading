@@ -130,7 +130,6 @@
 <label for="inputEmail3" class="col-sm-4 control-label">Partner Name</label>
 <div class="col-sm-8">
 <input type="text" class="form-control" id="inputID" placeholder="Partner Name">
-
 </div>
 </div>
 <div class="form-group">

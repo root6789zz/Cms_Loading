@@ -52,7 +52,7 @@
         <section class="content-header">
           <h1>
             Rol
-                <strong>Lịch sử giao dịch cộng/trừ tiền</strong>
+                <strong>Lịch sử giao dịch</strong>
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -92,13 +92,11 @@
                                         <label for="inputPassword3" class="col-sm-4 control-label">Loại Giao Dịch</label>
                                         <div class="col-sm-8">
                                             <select class="form-control">
-                                                <option> Chuyển khoản cho Admin</option>
-                                                <option>Chuyển khoản cho Tổng Đại lý</option>
-                                                <option>Chuyển khoản cho Đại lý</option>
-                                                <option>Cộng tiền người chơi</option>
-                                                <option>Trừ tiền người chơi</option>
-                                                <option>Cộng tiền két người chơi</option>
-                                                <option>Trừ tiền két người chơi</option>
+                                                <option>Nhận tiền từ Admin</option>
+                                                <option>Nhận quỹ thưởng từ admin</option>
+                                                <option>Chuyển khoản cho Admin</option>
+                                                <option>Nhận tiền từ đại lý cấp 1</option>
+                                                <option>Chuyển khoản cho Đại lý cấp 1</option>
                                             </select>
                                         </div>
                                     </div>
@@ -149,8 +147,8 @@
                 <tr>
                   <th>STT</th>
                   <th>Nickname</th>
-                  <th>số tiền</th>
-                  <th>Địa chỉ IP admin</th>
+                  <th>Số tiền</th>
+                  <th>Ghi chú</th>
                   <th>Thời gian</th>
                   <th>Trạng thái</th>
                 </tr>
@@ -158,21 +156,39 @@
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Okchua
+                  <td>superadmin
                   </td>
                   <td>50000</td>
-                  <td>255.255.255</td>
+                  <td>Nhận tiền từ admin</td>
                   <td>25/02/2022 01:02:02</td>
-                  <td>thành công</td>
+                  <td><small class="label bg-green">thành công</small></td>
                 </tr>
                 <tr>
-                  <td>1</td>
-                  <td>Okchua
+                  <td>2</td>
+                  <td>superadmin
                   </td>
                   <td>50000</td>
-                  <td>255.255.255</td>
+                  <td>Nhận tiền từ tổng đại lý</td>
                   <td>25/02/2022 01:02:02</td>
-                  <td>thành công</td>
+                  <td><small class="label bg-red">thất bại</small></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>superadmin
+                  </td>
+                  <td>50000</td>
+                  <td>chuyển khoản cho admin</td>
+                  <td>25/02/2022 01:02:02</td>
+                  <td><small class="label bg-green">thành công</small></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>superadmin
+                  </td>
+                  <td>50000</td>
+                  <td>chuyển khoản cho đại lý</td>
+                  <td>25/02/2022 01:02:02</td>
+                  <td><small class="label bg-green">thành công</small></td>
                 </tr>
                 </tr>
                 </tfoot>

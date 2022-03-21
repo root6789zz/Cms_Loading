@@ -27,7 +27,7 @@
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="dashboard.php"><b>Rol</b>Tong dai ly</a>
+        <a href="dashboard.php"><b>Rol</b>System</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Nhập mã OTP</p>

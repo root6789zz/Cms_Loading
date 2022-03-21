@@ -115,7 +115,9 @@
 <label for="inputPassword3" class="col-sm-4 control-label">Loại ví</label>
 <div class="col-sm-8">
 <select class="form-control">
-<option>ví chính</option>
+  <option>ví chính</option>
+
+<option>ví tiền thưởng</option>
 <option>Ví giftcode</option>
 </select></div>
 </div>

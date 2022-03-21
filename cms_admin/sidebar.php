@@ -25,7 +25,7 @@
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
-            <li class="active treeview">
+            <li class="treeview">
               <a href="#">
                 <i class="fa fa-dashboard"></i> <span>Tổng quan</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
@@ -206,11 +206,11 @@
                 <li><a href="thu-hoi-giao-dich-user-user.php"><i class="fa fa-circle-o"></i> Thu hồi giao dịch user vs user</a></li>
                 <li><a href="thu-hoi-giao-dich-user-dai-ly.php"><i class="fa fa-circle-o"></i> Thu hồi giao dịch User ~ ĐL C1</a></li>
                 <li><a href="lich-su-giao-dich-ck.php"><i class="fa fa-circle-o"></i> Lịch sử giao dịch cộng/ trừ tiền</a></li>
+                <li><a href="lich-su-giao-dich-admin.php"><i class="fa fa-circle-o"></i> Lịch sử giao dich admin</a></li>
                 <li>
                   <a href="#"><i class="fa fa-circle-o"></i> Lệnh rút tiền <i class="fa fa-angle-left pull-right"></i></a>
                   <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Phê duyệt rút</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Danh sách đã phê duyệt</a></li>
+                    <li><a href="phe-duyet-rut-tien.php"><i class="fa fa-circle-o"></i> Phê duyệt rút</a></li>
                   </ul>
                 </li>
               </ul>
@@ -221,14 +221,13 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i> Tool tài xỉu</a></li>
-                <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Tool slot</a></li>                
-                <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Tool mini slot</a></li>                
-                <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Lịch sử dùng tool<small class="label pull-right bg-green">new</small></a></li>
+                <li><a href="tool-tai-xiu.php"><i class="fa fa-circle-o"></i> Tool tài xỉu</a></li>
+                <li><a href="tool-slot.php"><i class="fa fa-circle-o"></i> Tool slot</a></li>           
+                <li><a href="lich-su-dung-tool.php"><i class="fa fa-circle-o"></i> Lịch sử dùng tool<small class="label pull-right bg-green">new</small></a></li>
               </ul>
             </li>
             <li>
-              <a href="pages/calendar.html">
+              <a href="#">
                 <i class="fa fa-gear"></i> <span>Cấu hình hệ thống</span>  <i class="fa fa-angle-left pull-right"></i>
               <ul class="treeview-menu">
 
@@ -282,13 +281,13 @@
               </a>
             </li>
             <li>
-              <a href="pages/mailbox/mailbox.html">
+              <a href="#">
                 <i class="fa fa-gift"></i> <span>Giftcode</span>
                 <small class="label pull-right bg-green">new</small>
               <ul class="treeview-menu">
-                <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Tạo chiến dịch</a></li>
-                <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Tạo giftcode</a></li>                
-                <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Thống kê giftcode</a></li>
+                <li><a href="tao-chien-dich.php"><i class="fa fa-circle-o"></i>Tạo chiến dịch</a></li>
+                <li><a href="cau-hinh-giftcode.php"><i class="fa fa-circle-o"></i> Tạo giftcode</a></li>                
+
               </ul>
               </a>
             </li>

@@ -152,7 +152,7 @@
         <td>Tài khoản</td>
         <td>chimmoi1</td>
         <td>
-            <button class="btn btn-primary">Mở khoá giao dịch</button>
+            
         </td>
     </tr>
     <tr>
@@ -167,15 +167,15 @@
         <td>NickName</td>
         <td>Summit</td>
         <td>
-           <button class="btn btn-warning">Reset password (về 123456a)</button>
+           -
         </td>
     </tr>
     <tr>
         <td>Số điện thoại</td>
         <td></td>
         <td>
-            <button class="btn btn-primary"> Khoá chát</button>
-            <button class="btn btn-success"> Mở khoá chát</button>
+            
+            -
         </td>
     </tr>
     <tr>
@@ -188,20 +188,17 @@
         <td>Ngày tạo</td>
         <td>17/03/2022 00:00</td>
         <td>
-           <button class="btn btn-warning"> Cập nhật blacklist</button>
+           -
         </td>
     </tr>
     <tr>
         <td>Ngày cập nhật SĐT</td>
         <td></td>
         <td>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Ghi chú
-</button>
-            </button>
+-
         </td>
         <td>
-           <button class="btn btn-danger"> Đưa vào danh sách quây bài</button>
+           -
 
         </td>
     </tr>
@@ -209,8 +206,7 @@
         <td>IP List</td>
         <td>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-Hiển thị danh sách IP login</button>
+-
         </td>
     </tr>
     <tr>

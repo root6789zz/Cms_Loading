@@ -95,7 +95,12 @@
 <input type="text" class="form-control" id="inputID" placeholder=" Phiên">
 </div>
 </div>
-
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-4 control-label"> Tên tài khoản </label>
+<div class="col-sm-8">
+<input type="text" class="form-control" id="inputID" placeholder="Tên tài khoản">
+</div>
+</div>
 
 <div class="box-footer">
 <button type="submit" class="btn btn-info pull-right">Tìm kiếm</button>

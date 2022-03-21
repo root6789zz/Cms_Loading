@@ -27,7 +27,7 @@
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="dashboard.php"><b>Support</b>System</a>
+        <a href="dashboard.php"><b>Rol </b>System</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Đăng nhập tài khoản</p>

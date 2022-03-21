@@ -125,8 +125,6 @@
 <label for="inputEmail3" class="col-sm-4 control-label">Thời gian</label>
 <div class="col-sm-8">
 <input type="text" class="form-control pull-right" id="reservation">
-
-
 </div>
 </div>
 

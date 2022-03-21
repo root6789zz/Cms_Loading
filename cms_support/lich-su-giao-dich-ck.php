@@ -92,12 +92,7 @@
                                         <label for="inputPassword3" class="col-sm-4 control-label">Loại Giao Dịch</label>
                                         <div class="col-sm-8">
                                             <select class="form-control">
-                                                <option> Chuyển khoản cho Admin</option>
-                                                <option>Chuyển khoản cho Tổng Đại lý</option>
-                                                <option>Chuyển khoản cho Đại lý</option>
-                                                <option>Cộng tiền người chơi</option>
                                                 <option>Trừ tiền người chơi</option>
-                                                <option>Cộng tiền két người chơi</option>
                                                 <option>Trừ tiền két người chơi</option>
                                             </select>
                                         </div>

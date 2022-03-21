@@ -82,7 +82,7 @@
             <div class="col-md-6">
 <div class="box box-info">
 <div class="box-header with-border">
-<h3 class="box-title">Thêm / Sửa vé số</h3>
+<h3 class="box-title">Tra cứu</h3>
 </div>
 
 
@@ -174,7 +174,7 @@
 
             <div class="box-header">
 
-              <h3 class="box-title">Danh sách đại lý</h3>
+              <h3 class="box-title">Danh sách</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

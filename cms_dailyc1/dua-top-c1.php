@@ -102,7 +102,6 @@
 </div>
 <input type="text" class="form-control pull-right" id="reservation">
 </div>
-
 </div>
 <br/>
 <div class="forum-group">

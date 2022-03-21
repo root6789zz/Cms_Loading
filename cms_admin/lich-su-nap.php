@@ -321,7 +321,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><span class="badge badge-success">Thành công</span></td>
+                                                <td><span class="label label-success">Thành công</span></td>
                                                 <td>P1-Happy
                                                 </td>
                                                 <td>1214</td>
@@ -343,7 +343,7 @@
 
                                             </tr>
                                             <tr>
-                                                <td><span class="badge badge-danger">Thất bại</span></td>
+                                                <td><span class="label label-danger">Thất bại</span></td>
                                                 <td>P1-Happy
                                                 </td>
                                                 <td>1214</td>
@@ -365,7 +365,7 @@
 
                                             </tr>
                                             <tr>
-                                                <td><span class="badge badge-danger">Thất bại</span></td>
+                                                <td><span class="label label-warning">Chờ xử lí</span></td>
                                                 <td>P1-Happy
                                                 </td>
                                                 <td>1214</td>
@@ -387,7 +387,7 @@
 
                                             </tr>
                                             <tr>
-                                                <td><span class="badge badge-warning">Thất bại vl</span></td>
+                                                <td><span class="label label-danger">Thất bại</span></td>
                                                 <td>P1-Happy
                                                 </td>
                                                 <td>1214</td>

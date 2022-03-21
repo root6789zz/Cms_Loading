@@ -116,6 +116,7 @@
 <div class="col-sm-8">
 <select class="form-control">
 <option>ví chính</option>
+<option>quỹ tiền thưởng</option>
 <option>Ví giftcode</option>
 </select></div>
 </div>
